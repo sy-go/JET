@@ -1,0 +1,247 @@
+body {
+    font-size: 16px;
+    margin: 0px;
+    padding: 0px;
+    background-image: url('/images/turbine.jpg');
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: cover;
+    box-sizing: border-box;
+ }
+
+ .center,
+ h1,
+ h2,
+ h3 {
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    letter-spacing: 0.2rem;
+    font-weight: lighter;
+    color: aliceblue;
+ }
+
+ header {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    justify-items: end;
+    top: 0px;
+    left: 0px;
+    z-index: 100;
+    position: fixed;
+    background-color: rgb(17, 17, 30);
+    height: 75px;
+ }
+
+ header .navlogo {
+    height: 50px;
+    color: #eff2d4;
+    background-color: rgb(36, 29, 29);
+    padding: 0.25rem 2rem 1.3rem 2rem;
+ }
+
+ header h1 {
+    margin: 0;
+    padding: 0.25rem 1rem;
+
+    border-radius: 0px;
+    font-size: 1.5rem;
+    letter-spacing: 2.2rem;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    color: rgb(46, 43, 43);
+    background-color: rgb(205, 240, 228);
+ }
+
+ header h4 {
+    margin: 0.25rem;
+    font-size: 0.85rem;
+    letter-spacing: 0.2rem;
+    font-family: monospace;
+    font-style: italic;
+    font-weight: lighter;
+    text-align: center;
+ }
+
+ header nav {
+    display: flex;
+    justify-content: space-around;
+    justify-items: center;
+    align-content: center;
+    align-items: center;
+    width: 60%;
+
+ }
+
+ header nav li {
+  width: 19rem;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    align-content: center;
+    align-items: center;
+    list-style: none;
+    height: 100%;
+    color: rgb(248, 255, 236);
+    cursor: pointer;
+    font-size: 1.3rem;
+    font-family: 'Roboto', sans-serif;
+    background-color: rgb(15, 11, 55);
+    border: 2px solid rgb(65, 65, 69);
+    border-radius: 5px;
+ }
+
+ header a {
+    text-decoration: none;
+    display: block;
+    padding: 1rem 4rem;
+    color: #eff2d4;
+ }
+
+ header li:hover {
+    background-color: rgb(143, 3, 3);
+    border: 2px solid rgba(255, 255, 101, 0.859);
+    font-weight: 700;
+    transition: 0.3s;
+
+ }
+
+ .init_quote {
+    margin-top: 75px;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    background-color: rgba(92, 102, 104, 0.722);
+    width: 100%;
+ }
+
+
+ .init_quote h3,
+ .init_quote h2 {
+    font-family: Lato;
+    font-style: italic;
+    color: rgb(249, 249, 249);
+
+ }
+
+ .section_container {
+    max-width: 100%;
+    height: 100vh;
+
+    color: #fdfdfd;
+    background-color: rgba(51, 74, 79, 0.821);
+    padding-bottom: 2rem;
+ }
+
+ #secA .card {
+    padding: 0px;
+ }
+
+ .section_container h2 {
+    margin-top: 76px;
+    font-weight: 500;
+    padding-top: 7rem;
+ }
+
+ .subsection {
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+
+ }
+
+ .card img {
+    width: 100%;
+    height: 200px;
+ }
+
+
+ .card {
+    margin: 1%;
+    background-color: #1e2440;
+    padding: 0.5rem;
+ }
+
+ .card h2 {
+    padding: 0px;
+    font-size: 1.3rem;
+    margin-top: 1rem;
+ }
+
+ .card h3 {
+    letter-spacing: 1px;
+    font-size: 0.8rem;
+ }
+
+ #sec2 .card {
+    width: 15%;
+    height: auto;
+ }
+
+ #carouselExampleCaptions {
+    width: 80vw;
+    padding: 2rem 5rem;
+    margin: 0 auto;
+    background-color: #1e2440;
+    top: 80px;
+ }
+
+ div #sec3 .section_container {
+    margin-top: 74px;
+    padding: 2rem 30px;
+ }
+
+ #carouselExampleCaptions h2 {
+    margin: 0 auto;
+    padding-bottom: 1rem;
+    padding-top: 2rem;
+    top: 745px;
+ }
+
+ .carousel-inner {
+    width: 60%;
+    height: 40%;
+    margin: 0 auto;
+ }
+
+ .carousel-control-prev {
+    left: 100px;
+ }
+
+ .carousel-control-next {
+    right: 100px;
+ }
+
+ .carousel-item img {
+    height: 50%;
+ }
+
+ .carousel-caption h5,
+ .carousel-caption p {
+    background-color: #1e2440e4;
+    margin: 0;
+    padding: 0.5rem;
+ }
+
+ .carousel-indicators {
+    padding-bottom: 2rem;
+ }
+
+ #sec4 a {
+    margin-top: 50vh;
+    height: 80%;
+    padding: 1rem 3rem;
+    background-color: coral;
+ }
+
+ footer {
+    background-color: #949c47;
+    color: antiquewhite;
+    font-size: 1rem;
+    padding: 3px;
+ }
+
+ footer p {
+    margin: 0 auto;
+    padding: 5px;
+ }
